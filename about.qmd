@@ -7,22 +7,24 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering,Suleyman Demirel University, Turkey, 20xx - 20xx.
+-   B.S., Industrial Engineering, Suleyman Demirel University, Turkey, 2010 - 2014.
 -   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Antalya Büyükşehir Belediyesi, Endüstri Mühendisi, 2015-2020
 
-2.  Firm yyy, position yyy, year yyy
+2.  Sanayi ve Teknoloji Bakanlığı, Sanayi ve Teknoloji Uzmanı, 2020-devam ediyor
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  ADOPEN , Üretim Stajı, 2012
 
-2.  Firm bbb, position yyy, year yyy
+2.  T.C. Hazine Müsteşarlığı, Yönetim Stajı, 2013
+
+3.  TEİAŞ 19. İletim Tesis ve İşletme Grup Müdürlüğü, Yönetim Stajı, 2013
 
 # Projects
 
