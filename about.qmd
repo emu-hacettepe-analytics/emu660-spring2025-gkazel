@@ -8,7 +8,7 @@ sidebar: false
 # Education
 
 -   B.S., Industrial Engineering, Suleyman Demirel University, Turkey, 2010 - 2014.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   M.S., Industrial Engineering, Hacettepe University, Turkey, 2024 - ongoing.
 
 # Work Experience
 
@@ -16,7 +16,7 @@ sidebar: false
 
 1.  Antalya Büyükşehir Belediyesi, Endüstri Mühendisi, 2015-2020
 
-2.  Sanayi ve Teknoloji Bakanlığı, Sanayi ve Teknoloji Uzmanı, 2020-devam ediyor
+2.  Sanayi ve Teknoloji Bakanlığı, Sanayi ve Teknoloji Uzmanı, 2020- ongoing.
 
 ## Internships
 
