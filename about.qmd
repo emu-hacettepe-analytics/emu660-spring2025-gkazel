@@ -3,39 +3,50 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](assets/images/gamze photo.jpeg){fig-align="center"}
+
 
 # Education
 
 -   B.S., Industrial Engineering, Suleyman Demirel University, Turkey, 2010 - 2014.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 2024 - ongoing.
+-   M.S., Industrial Engineering, Hacettepe University, Turkey, 2025 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Antalya Büyükşehir Belediyesi, Endüstri Mühendisi, 2015-2020
+1.  Antalya Metropolitan Municipality, Industrial Engineer, 2015-2020
 
-2.  Sanayi ve Teknoloji Bakanlığı, Sanayi ve Teknoloji Uzmanı, 2020- ongoing.
+2.  Ministry of Industry and Technology, Industry and Technology Expert, 2020 - ongoing.
 
 ## Internships
 
-1.  ADOPEN , Üretim Stajı, 2012
+1.  ADOPEN, Production Internship, 2012
 
-2.  T.C. Hazine Müsteşarlığı, Yönetim Stajı, 2013
+2.  T.C. Prime Ministry Undersecretariat of Treasury, Management Internship, 2013
 
-3.  TEİAŞ 19. İletim Tesis ve İşletme Grup Müdürlüğü, Yönetim Stajı, 2013
+3.  TEİAŞ 19. Transmission Facility and Operation Group Directorate, Management Internship, 2013
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+1.
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  Asya Verimlilik Teşkilatı Verimlilik Endeksi ve Türkiye’nin Performansı (2022). Anahtar Dergisi, 399, 33-35.
+
+2. Döngüsel Ekonomi Kavramı ve Bu Alanda Dünya ve Türkiye’deki Gelişmeler (2022). Anahtar Dergisi, 402, 14-16.
+
+3. Yeşil ve Dijital Bir Geleceğe Doğru (2024). Anahtar Dergisi, 421, 37-39.
+
+4. İklim Değişikliğinin Azaltılması İçin Çözümler (2024). Anahtar Dergisi, 426, 37-39.
+
+5. Dünyada Ve Türkiye’de Döngüsel Ekonomi (2025). Anahtar Dergisi, 433, 13-16.
+
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git
 
 # Hobbies
+Trekking, Camping, Swimming
