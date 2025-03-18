@@ -5,11 +5,133 @@ title: "Assignment 1"
 # Assignment 1
 
 ```{r}
-1 + 1
+
 ```
 
 My first assignment has two parts.
 
 ## (a)
 
+
 ## (b)
+```{r}
+
+compute_stats <-function(x) {
+  stats <- list(
+    Mean <- mean(x, na.rm = TRUE),
+    Median <- median(x, na.rm = TRUE),
+    Variance <- var(x, na.rm = TRUE),
+    IQR <- IQR(x, na.rm = TRUE), 
+    Min <- min(x, na.rm = TRUE),
+    Max <- max(x, na.rm = TRUE)
+  )
+return(stats)
+}
+
+```
+
+
+```{r}
+data(mtcars)
+results_for <- list()
+
+for(col_name in colnames(mtcars)) {
+  results_for[[col_name]] <- compute_stats(mtcars[[col_name]])
+}
+print(results_for)
+```
+
+
+```{r}
+results_sapply <- sapply(mtcars, compute_stats)
+
+print(results_sapply)
+```
+
+```{r}
+results_apply <- apply(mtcars, 2, compute_stats)
+
+print(results_apply)
+
+```
+
+##(c) bu bölümde ChatGPT'den yardım alındı.
+```{r}
+
+
+install.packages("dslabs")
+library(dslabs)
+
+data(na_example)
+
+print(na_example)
+
+which(is.na(na_example))
+```
+
+```{r}
+
+total_na <- sum(is.na(na_example))
+na_positions <- which(is.na(na_example))
+
+cat("Toplam NA Sayısı:", total_na, "\n")
+cat("NA Değerlerinin Pozisyonları:", na_positions, "\n")
+```
+
+```{r}
+mean_without_na <- mean(na_example, na.rm = TRUE)
+sd_without_na <- sd(na_example, na.rm = TRUE)
+
+cat("NA Olmadan Ortalama:", mean_without_na, "\n")
+cat("NA Olmadan Standart Sapma:", sd_without_na, "\n")
+```
+
+```{r}
+median_value <- median(na_example, na.rm = TRUE)
+na_replaced_median <- ifelse(is.na(na_example), median_value, na_example)
+print(na_replaced_median)
+
+```
+
+```{r}
+set.seed(123) 
+random_values <- sample(na_example[!is.na(na_example)], sum(is.na(na_example)), replace = TRUE)
+
+na_replaced_random <- na_example
+na_replaced_random[is.na(na_replaced_random)] <- random_values
+print(na_replaced_random)
+```
+
+```{r}
+originaL_mean <- mean(na_example, na.rm = FALSE)
+original_sd <- sd(na_example, na.rm =FALSE)
+
+cat("Orijinal Ortalama (NA Dahil):",originaL_mean, "\n")
+cat("Orijinal Standart Sapma (NA Dahil):", original_sd, "\n")
+```
+
+```{r}
+median_replaced_mean <- mean(na_replaced_median, na.rm = TRUE)
+median_replaced_sd <- sd(na_replaced_median, na.rm = TRUE)
+
+cat("Medyan ile Değiştirilen Ortalama:", median_replaced_mean, "\n")
+cat("Medyan ile Değiştirilen Standart Sapma:", median_replaced_sd, "\n")
+```
+
+```{r}
+random_replaced_mean <- mean(na_replaced_random, na.rm =TRUE)
+random_replaced_sd <- sd(na_replaced_random, na.rm = TRUE)
+
+cat("Rastgele Değer ile Değiştirilen Ortalama:", random_replaced_mean, "\n")
+cat("Rastgele Değer ile Değiştirilen Standart Sapma:", random_replaced_sd, "\n")
+```
+
+```{r}
+comparison <- data.frame(
+  Method <- c("Orijinal (NA Hariç)", "Medyan ile Değiştirildi", "Rastgele Değer ile Değiştirildi"),
+  Mean <- c(mean(na_example, na.rm = TRUE), median_replaced_mean, random_replaced_mean),
+  SD <- c(sd(na_example, na.rm = TRUE), median_replaced_sd, random_replaced_sd)
+)
+print(comparison)
+```
+
