@@ -11,6 +11,16 @@ title: "Assignment 1"
 My first assignment has two parts.
 
 ## (a)
+**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Mustafa Baydoğan & Erdi Daşdemir**
+“Veriye Dayalı Karar Verme” konusu ele alınmıştır. Karar verme süreci (veri+analitik kararlar); sorunların tanımlanması, amaçların belirlenmesi, olası nedenlerib belirlenmesi, veri ve bilgi toplanması, alternatiflerin değerlendirilmesi ve uygulanabilir en iyi seçeneğin belirlenmesi aşamalarından oluşur. Örneğin, kereste üretiminde eğrilik tahmini, elektrik piyasasında arz-talep dengesinin sağlanması, çevrimiçi perakende sektöründe ciro optimizasyonu gibi konularda makine öğrenmesi ve görüntü işleme teknikleri kullanılarak tahminler yapılmıştır.  Sonucunda büyük maliyet avantajları ve operasyonel verimlilik sağlanmış, operasyonel süreçler iyileştirilebilmiştir. Geleneksel öğrenme ve derin öğrenme ile karar verme süreçlerinde, yorumlanabilirlik, yönlendirebilme, dirençli/gürbüz (robust) olabilme, karara çevirebilme konuları öne çıkmaktadır. Geleneksel öğrenmede öznitelik çıkarımı bir efor gerektirmektedir. Derin öğrenme yapısal olmayan verilerle çalışarak daha iyi tahminler sunmakta ve karar alma süreçlerini desteklemektedir. Ancak, yorumlanabilirlik, fazla parametre, gürbüzlük gibi unsurlar dezavantaj olarak karşımıza çıkabilmektedir.
+Çıkarımlar, 
+- Az ve/veya kirli veri ile uğraş ciddi insan kaynağı gerektirir.
+- Yapısal ve yapısal olmayan veri için alternatif yaklaşımlar geliştirme gereksinimi artmaktadır.
+- Açık veri kaynakları zengin bilgi içeriği sağlar.
+- İnsan yönlendirmesi fark yaratır.
+- Yorumlanabilirlik hala çok önemli durumdadır.
+- Karar verme için kullanılan tahminler yüzde yüz doğru olmak zorunda değildir. Nokta tahminler yanıltıcı olabilir.
+- Karar verme için takviyeli/pekiştirmeli öğrenme yaklaşımları önemli hale gelmektedir.
 
 
 ## (b)
