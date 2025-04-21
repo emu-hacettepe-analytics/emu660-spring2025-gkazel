@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/gamzephoto.jpeg){fig-align="center"}
+![](images/gamzephoto.jpg){fig-align="center"}
 
 
 # Education
@@ -46,7 +46,7 @@ sidebar: false
 
 # Competencies
 
-R, Quarto, Git
+R, Quarto, Git, SuperDecisions
 
 # Hobbies
 Trekking, Camping, Swimming, Photography
