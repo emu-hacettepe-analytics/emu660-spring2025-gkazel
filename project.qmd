@@ -1,32 +1,33 @@
 ---
-title: "Project X"
+title: A Data Analytics-Based Study on the Socioeconomic Status of Women in Türkiye
 ---
 
 Welcome to my/our project page.
 
 Keep an eye on this space to stay updated with my project activities.
 
-(The titles below are provided as examples; please feel free to adjust them as necessary.)
 
 # 1. Project Overview and Scope
 
-xxxxxx
+The labor force participation rate, income level, public representation, perception of safety, educational attainment, and regional disparities are multidimensional factors affecting women's socioeconomic status in Turkey. Particularly in regions where a patriarchal social structure prevails, women face both structural and cultural barriers to participating in economic and social life. This situation not only restricts individual well-being but also limits the country’s overall development potential.
+
+This project aims to analyze the socioeconomic status of women in Turkey through a data-driven approach using multidimensional indicators such as educational attainment, income level, perception of safety, and social roles. The core framework of the project includes examining the relationship between women’s education levels and their income, analyzing labor force participation rates in the context of regional disparities, evaluating how individual perceptions such as safety are shaped by gender roles, and generating public policy recommendations based on all these data.
 
 # 2. Data
 
-xxxxxx
+Statistical Portrait of Women, 2024
 
 ## 2.1 Data Source
 
-xxxxxx
+The data to be analyzed in this study will be obtained from the Turkish Statistical Institute (TÜİK) database. Raw data will be downloaded in .xlsx format from the TÜİK database, and the relevant documents will be included as source materials on the project’s GitHub page.
 
 ## 2.2 General Information About Data
 
-xxxxxx
+The study will focus on variables such as women’s educational attainment, labor force participation, employment rates at the regional level, wage disparities, positions in the workforce, and perception of safety.
 
 ## 2.3 Reason of Choice
 
-xxxxxx
+The data used in this study will be obtained from the TÜİK database, which offers free and publicly accessible data. TÜİK was chosen due to its compliance with international standards and its capacity to provide nationally representative data.
 
 ## 2.4 Preprocessing
 
