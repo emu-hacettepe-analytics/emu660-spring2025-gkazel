@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](images/gamzephoto.jpeg){fig-align="center" width="150"}
+![](C:/Users/gamze.kazel/Desktop/gamzephoto.jpeg){fig-align="center" width="150"}
 
 # Education
 
