@@ -11,37 +11,35 @@ title: "Assignment 1"
 My first assignment has two parts.
 
 ## (a)
-**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Mustafa Baydoğan & Erdi Daşdemir**
-“Veriye Dayalı Karar Verme” konusu ele alınmıştır. Karar verme süreci (veri+analitik kararlar); sorunların tanımlanması, amaçların belirlenmesi, olası nedenlerib belirlenmesi, veri ve bilgi toplanması, alternatiflerin değerlendirilmesi ve uygulanabilir en iyi seçeneğin belirlenmesi aşamalarından oluşur. Örneğin, kereste üretiminde eğrilik tahmini, elektrik piyasasında arz-talep dengesinin sağlanması, çevrimiçi perakende sektöründe ciro optimizasyonu gibi konularda makine öğrenmesi ve görüntü işleme teknikleri kullanılarak tahminler yapılmıştır.  Sonucunda büyük maliyet avantajları ve operasyonel verimlilik sağlanmış, operasyonel süreçler iyileştirilebilmiştir. Geleneksel öğrenme ve derin öğrenme ile karar verme süreçlerinde, yorumlanabilirlik, yönlendirebilme, dirençli/gürbüz (robust) olabilme, karara çevirebilme konuları öne çıkmaktadır. Geleneksel öğrenmede öznitelik çıkarımı bir efor gerektirmektedir. Derin öğrenme yapısal olmayan verilerle çalışarak daha iyi tahminler sunmakta ve karar alma süreçlerini desteklemektedir. Ancak, yorumlanabilirlik, fazla parametre, gürbüzlük gibi unsurlar dezavantaj olarak karşımıza çıkabilmektedir.
-Çıkarımlar, 
-- Az ve/veya kirli veri ile uğraş ciddi insan kaynağı gerektirir.
-- Yapısal ve yapısal olmayan veri için alternatif yaklaşımlar geliştirme gereksinimi artmaktadır.
-- Açık veri kaynakları zengin bilgi içeriği sağlar.
-- İnsan yönlendirmesi fark yaratır.
-- Yorumlanabilirlik hala çok önemli durumdadır.
-- Karar verme için kullanılan tahminler yüzde yüz doğru olmak zorunda değildir. Nokta tahminler yanıltıcı olabilir.
-- Karar verme için takviyeli/pekiştirmeli öğrenme yaklaşımları önemli hale gelmektedir.
 
+**Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Mustafa Baydoğan & Erdi Daşdemir** “Veriye Dayalı Karar Verme” konusu ele alınmıştır. Karar verme süreci (veri+analitik kararlar); sorunların tanımlanması, amaçların belirlenmesi, olası nedenlerin belirlenmesi, veri ve bilgi toplanması, alternatiflerin değerlendirilmesi ve uygulanabilir en iyi seçeneğin belirlenmesi aşamalarından oluşur. Örneğin, kereste üretiminde eğrilik tahmini, elektrik piyasasında arz-talep dengesinin sağlanması, çevrimiçi perakende sektöründe ciro optimizasyonu gibi konularda makine öğrenmesi ve görüntü işleme teknikleri kullanılarak tahminler yapılmıştır. Sonucunda büyük maliyet avantajları ve operasyonel verimlilik sağlanmış, operasyonel süreçler iyileştirilebilmiştir. Geleneksel öğrenme ve derin öğrenme ile karar verme süreçlerinde, yorumlanabilirlik, yönlendirebilme, dirençli/gürbüz (robust) olabilme, karara çevirebilme konuları öne çıkmaktadır. Geleneksel öğrenmede öznitelik çıkarımı bir efor gerektirmektedir. Derin öğrenme yapısal olmayan verilerle çalışarak daha iyi tahminler sunmakta ve karar alma süreçlerini desteklemektedir. Ancak, yorumlanabilirlik, fazla parametre, gürbüzlük gibi unsurlar dezavantaj olarak karşımıza çıkabilmektedir. Çıkarımlar, - Az ve/veya kirli veri ile uğraş ciddi insan kaynağı gerektirir. - Yapısal ve yapısal olmayan veri için alternatif yaklaşımlar geliştirme gereksinimi artmaktadır. - Açık veri kaynakları zengin bilgi içeriği sağlar. - İnsan yönlendirmesi fark yaratır. - Yorumlanabilirlik hala çok önemli durumdadır. - Karar verme için kullanılan tahminler yüzde yüz doğru olmak zorunda değildir. Nokta tahminler yanıltıcı olabilir. - Karar verme için takviyeli/pekiştirmeli öğrenme yaklaşımları önemli hale gelmektedir.
 
 ## (b)
+
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
 
 compute_stats <-function(x) {
   stats <- list(
-    Mean <- mean(x, na.rm = TRUE),
-    Median <- median(x, na.rm = TRUE),
-    Variance <- var(x, na.rm = TRUE),
-    IQR <- IQR(x, na.rm = TRUE), 
-    Min <- min(x, na.rm = TRUE),
-    Max <- max(x, na.rm = TRUE)
+    Mean = mean(x, na.rm = TRUE),
+    Median = median(x, na.rm = TRUE),
+    Variance = var(x, na.rm = TRUE),
+    IQR = IQR(x, na.rm = TRUE), 
+    Min = min(x, na.rm = TRUE),
+    Max = max(x, na.rm = TRUE)
   )
 return(stats)
 }
 
 ```
 
-
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
 data(mtcars)
 results_for <- list()
 
@@ -51,14 +49,21 @@ for(col_name in colnames(mtcars)) {
 print(results_for)
 ```
 
-
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
 results_sapply <- sapply(mtcars, compute_stats)
 
 print(results_sapply)
 ```
 
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
 results_apply <- apply(mtcars, 2, compute_stats)
 
 print(results_apply)
@@ -66,21 +71,30 @@ print(results_apply)
 ```
 
 ##(c) bu bölümde ChatGPT'den yardım alındı.
+
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
 
-
-install.packages("dslabs")
+if (!requireNamespace("dslabs", quietly = TRUE)) {
+  install.packages("dslabs", repos = "https://cloud.r-project.org")
+}
 library(dslabs)
 
-data(na_example)
+# Veriyi yükle
+data("na_example")
 
+# Veri setinin tamamını göster
 print(na_example)
-
-which(is.na(na_example))
 ```
 
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
 
+# NA sayısı ve pozisyonları
 total_na <- sum(is.na(na_example))
 na_positions <- which(is.na(na_example))
 
@@ -89,59 +103,60 @@ cat("NA Değerlerinin Pozisyonları:", na_positions, "\n")
 ```
 
 ```{r}
-mean_without_na <- mean(na_example, na.rm = TRUE)
-sd_without_na <- sd(na_example, na.rm = TRUE)
+#| echo: true
+#| message: false
+#| warning: false
+mean_clean <- mean(na_example, na.rm = TRUE)
+sd_clean <- sd(na_example, na.rm = TRUE)
 
-cat("NA Olmadan Ortalama:", mean_without_na, "\n")
-cat("NA Olmadan Standart Sapma:", sd_without_na, "\n")
+cat("NA Hariç Ortalama:", mean_clean, "\n")
+cat("NA Hariç Standart Sapma:", sd_clean, "\n")
 ```
 
 ```{r}
-median_value <- median(na_example, na.rm = TRUE)
-na_replaced_median <- ifelse(is.na(na_example), median_value, na_example)
-print(na_replaced_median)
+#| echo: true
+#| message: false
+#| warning: false
+median_val <- median(na_example, na.rm = TRUE)
+version1 <- na_example
+version1[is.na(version1)] <- median_val
 
 ```
 
 ```{r}
-set.seed(123) 
-random_values <- sample(na_example[!is.na(na_example)], sum(is.na(na_example)), replace = TRUE)
-
-na_replaced_random <- na_example
-na_replaced_random[is.na(na_replaced_random)] <- random_values
-print(na_replaced_random)
+#| echo: true
+#| message: false
+#| warning: false
+set.seed(123)  # Rastgeleliğe sabitlik
+non_na_values <- na_example[!is.na(na_example)]
+version2 <- na_example
+version2[is.na(version2)] <- sample(non_na_values, sum(is.na(na_example)), replace = TRUE)
 ```
 
 ```{r}
-originaL_mean <- mean(na_example, na.rm = FALSE)
-original_sd <- sd(na_example, na.rm =FALSE)
+#| echo: true
+#| message: false
+#| warning: false
+# Versiyon 1
+mean_v1 <- mean(version1)
+sd_v1 <- sd(version1)
 
-cat("Orijinal Ortalama (NA Dahil):",originaL_mean, "\n")
-cat("Orijinal Standart Sapma (NA Dahil):", original_sd, "\n")
+# Versiyon 2
+mean_v2 <- mean(version2)
+sd_v2 <- sd(version2)
+
+cat("Median ile Doldurma -> Ortalama:", mean_v1, ", Standart Sapma:", sd_v1, "\n")
+cat("Rastgele Degerle Doldurma -> Ortalama:", mean_v2, ", Standart Sapma:", sd_v2, "\n")
 ```
 
 ```{r}
-median_replaced_mean <- mean(na_replaced_median, na.rm = TRUE)
-median_replaced_sd <- sd(na_replaced_median, na.rm = TRUE)
-
-cat("Medyan ile Değiştirilen Ortalama:", median_replaced_mean, "\n")
-cat("Medyan ile Değiştirilen Standart Sapma:", median_replaced_sd, "\n")
+#| echo: false
+#| message: false
+#| warning: false
+cat("\nYORUM:\n")
+cat("Median ile doldurma yontemi, verinin merkezi egilimini bozmadan NA degerleri tamamlar,\n")
+cat("bu nedenle dagılımın yapısını korur ve asırı uclara duyarlı degildir.\n")
+cat("Rastgele degerle doldurma, veri icindeki varyasyonu taklit eder ama tekrarlanabilirligi dusuktur\n")
+cat("ve analizlerin sonucunu oynatabilir.\n")
+cat("Bu ornekte median ile doldurma daha tutarlı ve istatistiksel olarak guvenilirdir.\n")
 ```
-
-```{r}
-random_replaced_mean <- mean(na_replaced_random, na.rm =TRUE)
-random_replaced_sd <- sd(na_replaced_random, na.rm = TRUE)
-
-cat("Rastgele Değer ile Değiştirilen Ortalama:", random_replaced_mean, "\n")
-cat("Rastgele Değer ile Değiştirilen Standart Sapma:", random_replaced_sd, "\n")
-```
-
-```{r}
-comparison <- data.frame(
-  Method <- c("Orijinal (NA Hariç)", "Medyan ile Değiştirildi", "Rastgele Değer ile Değiştirildi"),
-  Mean <- c(mean(na_example, na.rm = TRUE), median_replaced_mean, random_replaced_mean),
-  SD <- c(sd(na_example, na.rm = TRUE), median_replaced_sd, random_replaced_sd)
-)
-print(comparison)
-```
-

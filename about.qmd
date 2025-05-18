@@ -3,8 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](images/vesikalik.jpg){fig-align="center"}
-
+![](images/gamzephoto.jpeg){fig-align="center" width="150"}
 
 # Education
 
@@ -29,24 +28,24 @@ sidebar: false
 
 # Projects
 
-1.
+1.  
 
 # Publications
 
 1.  Asya Verimlilik Teşkilatı Verimlilik Endeksi ve Türkiye’nin Performansı (2022). Anahtar Dergisi, 399, 33-35.
 
-2. Döngüsel Ekonomi Kavramı ve Bu Alanda Dünya ve Türkiye’deki Gelişmeler (2022). Anahtar Dergisi, 402, 14-16.
+2.  Döngüsel Ekonomi Kavramı ve Bu Alanda Dünya ve Türkiye’deki Gelişmeler (2022). Anahtar Dergisi, 402, 14-16.
 
-3. Yeşil ve Dijital Bir Geleceğe Doğru (2024). Anahtar Dergisi, 421, 37-39.
+3.  Yeşil ve Dijital Bir Geleceğe Doğru (2024). Anahtar Dergisi, 421, 37-39.
 
-4. İklim Değişikliğinin Azaltılması İçin Çözümler (2024). Anahtar Dergisi, 426, 37-39.
+4.  İklim Değişikliğinin Azaltılması İçin Çözümler (2024). Anahtar Dergisi, 426, 37-39.
 
-5. Dünyada Ve Türkiye’de Döngüsel Ekonomi (2025). Anahtar Dergisi, 433, 13-16.
-
+5.  Dünyada Ve Türkiye’de Döngüsel Ekonomi (2025). Anahtar Dergisi, 433, 13-16.
 
 # Competencies
 
 R, Quarto, Git, SuperDecisions
 
 # Hobbies
+
 Trekking, Camping, Swimming, Photography
